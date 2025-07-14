@@ -1,0 +1,25 @@
+stimulus,category,stim_type,Corr
+상쾌하다.jpg ,긍정,image,z
+반갑다.jpg,긍정,image,z
+불만족하다.jpg,부정,image,slash
+증오하다.jpg,부정,image,slash
+거북하다.jpg,부정,image,slash
+신나다.jpg,긍정,image,z
+drug5.jpg,마약,image,z
+편안하다.jpg,긍정,image,z
+경멸하다.jpg,부정,image,slash
+격분하다.jpg,부정,image,slash
+사랑스럽다.jpg,긍정,image,z
+즐겁다.jpg,긍정,image,z
+역겹다.jpg,부정,image,slash
+drug1.jpg,마약,image,z
+drug2.jpg,마약,image,z
+괴롭다.jpg,부정,image,slash
+죄스럽다.jpg,부정,image,slash
+유쾌하다.jpg,긍정,image,z
+뿌듯하다.jpg,긍정,image,z
+끔찍하다.jpg,부정,image,slash
+매력있다.jpg,긍정,image,z
+흥미롭다.jpg,긍정,image,z
+화나다.jpg,부정,image,slash
+애정하다.jpg,긍정,image,z
