@@ -119,7 +119,7 @@ psychoJS.start({
   ]
 });
     
-}
+
 psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.INFO);
 
 async function updateInfo() {
