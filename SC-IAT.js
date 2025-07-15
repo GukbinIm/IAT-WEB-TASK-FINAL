@@ -14,8 +14,10 @@ const { round } = util;
 // store info about the experiment session:
 export function runExperiment() {
 let expName = 'SC-IAT';  // from the Builder filename that created this script
-let expInfo = {
+
 let currentLoop;
+    
+    let expInfo = {
     'participant': `${util.pad(Number.parseFloat(util.randint(0, 999999)).toFixed(0), 6)}`,
     'session': '001',
 };
