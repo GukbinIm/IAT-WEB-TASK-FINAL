@@ -30,7 +30,7 @@ let trial_1Clock;
 const psychoJS = new PsychoJS({
   debug: true
 });
-}
+
 // open window:
 psychoJS.openWindow({
   fullscr: true,
@@ -3379,4 +3379,5 @@ async function quitPsychoJS(message, isCompleted) {
   psychoJS.quit({message: message, isCompleted: isCompleted});
   
   return Scheduler.Event.QUIT;
+}
 }
