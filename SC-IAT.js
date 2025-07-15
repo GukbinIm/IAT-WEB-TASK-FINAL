@@ -12,6 +12,7 @@ const { round } = util;
 
 
 // store info about the experiment session:
+export function runExperiment() {
 let expName = 'SC-IAT';  // from the Builder filename that created this script
 let expInfo = {
 let currentLoop;
@@ -27,7 +28,7 @@ let trial_1Clock;
 const psychoJS = new PsychoJS({
   debug: true
 });
-
+}
 // open window:
 psychoJS.openWindow({
   fullscr: true,
