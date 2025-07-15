@@ -118,7 +118,8 @@ psychoJS.start({
     {'name': 'temp_conditions.csv', 'path': 'temp_conditions.csv'},
   ]
 });
-
+    
+}
 psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.INFO);
 
 async function updateInfo() {
@@ -3380,5 +3381,5 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
-}
+
 runExperiment();
