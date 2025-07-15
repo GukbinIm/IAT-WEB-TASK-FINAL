@@ -1715,11 +1715,7 @@ function main_loopRoutineBegin(snapshot) {
     main_loopMaxDurationReached = false;
     // update component parameters for each repeat
     // Run 'Begin Routine' code from code_5
-    import * as pd from 'pandas';
-    df = pd.read_excel("stimuli.xlsx");
-    subset_df_1 = df.sample({"n": 24, "replace": false}).reset_index({"drop": true});
-    subset_df_1.to_csv("temp_conditions.csv", {"index": false});
-    
+
     psychoJS.experiment.addData('main_loop.started', globalClock.getTime());
     main_loopMaxDuration = null
     // keep track of which components have finished
@@ -2803,10 +2799,6 @@ function main_loop_2RoutineBegin(snapshot) {
     main_loop_2MaxDurationReached = false;
     // update component parameters for each repeat
     // Run 'Begin Routine' code from code_11
-    import * as pd from 'pandas';
-    df = pd.read_excel("stimuli.xlsx");
-    subset_df_2 = df.sample({"n": 24, "replace": false}).reset_index({"drop": true});
-    subset_df_2.to_csv("temp_conditions.csv", {"index": false});
     
     psychoJS.experiment.addData('main_loop_2.started', globalClock.getTime());
     main_loop_2MaxDuration = null
