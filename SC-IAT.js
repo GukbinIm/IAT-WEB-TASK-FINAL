@@ -30,7 +30,7 @@ let trial_1Clock;
 const psychoJS = new PsychoJS({
   debug: true
 });
-
+let frameDur;
 // open window:
 psychoJS.openWindow({
   fullscr: true,
