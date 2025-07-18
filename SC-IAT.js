@@ -3381,5 +3381,5 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
-
+}
 runExperiment();
