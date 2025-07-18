@@ -31,6 +31,7 @@ const psychoJS = new PsychoJS({
   debug: true
 });
 let frameDur;
+let IntroText;
 // open window:
 psychoJS.openWindow({
   fullscr: true,
